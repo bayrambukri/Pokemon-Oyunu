@@ -9,21 +9,6 @@ Bu proje, React ile geliştirilmiş basit bir Pokemon kart oyunudur. Oyunda rast
 - Her oyuncunun toplam deneyim puanı hesaplanır
 - Kazanan ve kaybeden görsel olarak belirtilir
 
-## Kurulum
-
-1. Depoyu klonlayın:
-   ```
-   git clone <repo-url>
-   cd Pokemon-Oyunu
-   ```
-2. Bağımlılıkları yükleyin:
-   ``
-   npm install
-   ```
-3. Uygulamayı başlatın:
-   ```
-   npm start
-   ```
 
 ## Kullanım
 
