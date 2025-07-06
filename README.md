@@ -1,3 +1,46 @@
+# Pokemon-Oyunu
+
+Bu proje, React ile geliştirilmiş basit bir Pokemon kart oyunudur. Oyunda rastgele iki oyuncuya Pokemon kartları dağıtılır ve toplam deneyim puanına göre kazanan belirlenir.
+
+## Özellikler
+
+- 8 farklı Pokemon kartı (isim, tip, deneyim puanı ve resmi ile)
+- Kartlar iki oyuncuya rastgele dağıtılır
+- Her oyuncunun toplam deneyim puanı hesaplanır
+- Kazanan ve kaybeden görsel olarak belirtilir
+
+## Kurulum
+
+1. Depoyu klonlayın:
+   ```
+   git clone <repo-url>
+   cd Pokemon-Oyunu
+   ```
+2. Bağımlılıkları yükleyin:
+   ``
+   npm install
+   ```
+3. Uygulamayı başlatın:
+   ```
+   npm start
+   ```
+
+## Kullanım
+
+Uygulama açıldığında iki oyuncuya rastgele kartlar dağıtılır. Her oyuncunun toplam deneyim puanı ekranda gösterilir ve kazanan/kaybeden belirtilir.
+
+## Proje Yapısı
+
+- [`src/Pokegame.js`](src/Pokegame.js): Kartların dağıtımı ve oyunun ana mantığı
+- [`src/Pokedex.js`](src/Pokedex.js): Oyuncuların kartlarını ve skorunu gösterir
+- [`src/Pokecard.js`](src/Pokecard.js): Tek bir Pokemon kartının görseli ve bilgileri
+
+## Ekran Görüntüsü
+
+![Animasyon](public/Animation.gif)
+
+
+
 
 
 
